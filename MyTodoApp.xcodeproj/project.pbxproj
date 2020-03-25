@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9353A244242B987500E8D895 /* MyToDoApp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9353A243242B987500E8D895 /* MyToDoApp.gif */; };
 		93633272242A2B2E00ABFC42 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93633270242A2B2E00ABFC42 /* TableViewCell.swift */; };
 		93633273242A2B2E00ABFC42 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93633271242A2B2E00ABFC42 /* TableViewCell.xib */; };
 		93633276242A2B6E00ABFC42 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 93633275242A2B6E00ABFC42 /* correct.png */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9353A243242B987500E8D895 /* MyToDoApp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MyToDoApp.gif; sourceTree = "<group>"; };
 		93633270242A2B2E00ABFC42 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		93633271242A2B2E00ABFC42 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		93633275242A2B6E00ABFC42 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9353A245242B987A00E8D895 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				9353A243242B987500E8D895 /* MyToDoApp.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
 		93633274242A2B3B00ABFC42 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 				93633275242A2B6E00ABFC42 /* correct.png */,
 				93F27E11242A295B00ED0E1E /* LaunchScreen.storyboard */,
 				93F27E14242A295B00ED0E1E /* Info.plist */,
+				9353A245242B987A00E8D895 /* Gif */,
 			);
 			path = MyTodoApp;
 			sourceTree = "<group>";
@@ -142,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9353A244242B987500E8D895 /* MyToDoApp.gif in Resources */,
 				93633276242A2B6E00ABFC42 /* correct.png in Resources */,
 				93F27E13242A295B00ED0E1E /* LaunchScreen.storyboard in Resources */,
 				93633273242A2B2E00ABFC42 /* TableViewCell.xib in Resources */,
